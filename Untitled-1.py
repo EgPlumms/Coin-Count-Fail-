@@ -41,5 +41,28 @@ if answer == 'yes' or 'Yes':
 else:
     print("Alright Fair Enough")
     
+print("What is the weight of the 1p bag?")
+Weight_1p = input()
+print("What is the weight of the 5p bag?")
+Weight_5p = input()
+print("What is the weight of the 20p bag?")
+Weight_20p = input()
+print("What is the weight of the 50p bag?")
+Weight_50p = input()
+print("What is the weight of the £1 bag?")
+Weight_1 = input()
+print("What is the weight of the £2 bag?")
+Weight_2 = input()
 
+print("Would you like a complete list of the values and volunteers?")
+answer_2 = input()
+if answer_2 == 'yes' or 'Yes':
+    print(Person_01, Cointype_01, Weight_1p)
+    print(Person_02, Cointype_02, Weight_5p)
+    print(Person_03, Cointype_03, Weight_20p)
+    print(Person_04, Cointype_04, Weight_50p)
+    print(Person_05, Cointype_05, Weight_1)
+    print(Person_06, Cointype_06, Weight_2)
+else:
+    print("You Will See These Later On")
 
