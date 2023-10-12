@@ -61,4 +61,17 @@ elif answer_2 == 'Yes':
 else:
     print("You Will See These Later On")
 
+Value_1 = input("What Is The Bag Value Of ",Cointype_01)
+Value_2 = input("What Is The Bag Value Of ",Cointype_02)
+Value_3 = input("What Is The Bag Value Of ",Cointype_03)
+Value_4 = input("What Is The Bag Value Of ",Cointype_04)
+Value_5 = input("What Is The Bag Value Of ",Cointype_05)
+Value_6 = input("What Is The Bag Value Of ",Cointype_06)
+
+Total_1 = Value_1 * Weight_1p
+Total_2 = Value_2 * Weight_5p
+Total_3 = Value_3 * Weight_20p
+Total_4 = Value_4 * Weight_50p
+Total_5 = Value_5 * Weight_1
+Total_6 = Value_6 * Weight_2
 
