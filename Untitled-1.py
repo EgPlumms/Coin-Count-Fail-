@@ -28,18 +28,12 @@ Person_06 = input()
 print("What coin did they count?")
 Cointype_06 = input()
 
-print("Would you like a list of the volunteers")
-answer = input()
-if answer == 'yes' or 'Yes':
-
-    print(Person_01, Cointype_01)
-    print(Person_02, Cointype_02)
-    print(Person_03, Cointype_03)
-    print(Person_04, Cointype_04)
-    print(Person_05, Cointype_05)
-    print(Person_06, Cointype_06)
+answer = input("Would you like a list of the volunteers?")
+if answer == 'yes' or answer == 'Yes':
+    print("Volunteers:", Person_01,Person_02,Person_03,Person_04,Person_05,Person_06)
+    print("Cointype:", Cointype_01,Cointype_02,Cointype_03,Cointype_04,Cointype_05,Cointype_06)
 else:
-    print("Alright Fair Enough")
+    print("You Will See This Later On")
     
 print("What is the weight of the 1p bag?")
 Weight_1p = input()
@@ -54,15 +48,17 @@ Weight_1 = input()
 print("What is the weight of the £2 bag?")
 Weight_2 = input()
 
-print("Would you like a complete list of the values and volunteers?")
-answer_2 = input()
-if answer_2 == 'yes' or 'Yes':
-    print(Person_01, Cointype_01, Weight_1p)
-    print(Person_02, Cointype_02, Weight_5p)
-    print(Person_03, Cointype_03, Weight_20p)
-    print(Person_04, Cointype_04, Weight_50p)
-    print(Person_05, Cointype_05, Weight_1)
-    print(Person_06, Cointype_06, Weight_2)
+answer_2 = input("Would you like a complete list of the values and volunteers?")
+if answer_2 == 'yes':
+    print("Volunteers:", Person_01,Person_02,Person_03,Person_04,Person_05,Person_06)
+    print("Cointype:", Cointype_01,Cointype_02,Cointype_03,Cointype_04,Cointype_05,Cointype_06)
+    print("Weight(g)", Weight_1p,Weight_5p,Weight_20p,Weight_50p,Weight_1,Weight_2)
+
+elif answer_2 == 'Yes':
+    print("Volunteers:", Person_01,Person_02,Person_03,Person_04,Person_05,Person_06)
+    print("Cointype:", Cointype_01,Cointype_02,Cointype_03,Cointype_04,Cointype_05,Cointype_06)
+    print("Weight(g)", Weight_1p,Weight_5p,Weight_20p,Weight_50p,Weight_1,Weight_2)
 else:
     print("You Will See These Later On")
+
 
